@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "ChatMate",
+    "slug": "ChatMate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./ChatMateApp/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./ChatMateApp/assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./ChatMateApp/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.yourname.chatmate",
+      "versionCode": 1,
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./ChatMateApp/assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0493986b-0d53-40c3-9b28-c9c55bb2b6bd"
+      }
+    }
+  }
+}
